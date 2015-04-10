@@ -1,5 +1,5 @@
 <templateSet group="My Templates">
-  <template name="cl" value="console.log('$message$');" description="console log" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="console.log('  --  &gt;  $message$');" description="console log" toReformat="false" toShortenFQNames="true">
     <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -8,7 +8,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cv" value="console.log('$var$:', $var$);" description="console log a variable" toReformat="false" toShortenFQNames="true">
+  <template name="cv" value="console.log('  --  &gt;  $var$:', $var$);" description="console log a variable" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="clipboard()" defaultValue="var" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -17,7 +17,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ci" value="console.log('  --&gt;  $file$ &gt; $func$'$END$);" description="console log some info about this method" toReformat="false" toShortenFQNames="true">
+  <template name="ci" value="console.log('  --  &gt;  $file$ &gt; $func$'$END$);" description="console log some info about this method" toReformat="false" toShortenFQNames="true">
     <variable name="file" expression="fileName()" defaultValue="file" alwaysStopAt="false" />
     <variable name="func" expression="jsMethodName()" defaultValue="function" alwaysStopAt="false" />
     <context>
