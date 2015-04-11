@@ -17,7 +17,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ci" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$'$END$);" description="console log some info about this method" toReformat="false" toShortenFQNames="true">
+  <template name="ci" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$()'$END$);" description="console log some info about this method" toReformat="false" toShortenFQNames="true">
     <variable name="file" expression="fileName()" defaultValue="file" alwaysStopAt="false" />
     <variable name="line" expression="lineNumber()" defaultValue="line" alwaysStopAt="false" />
     <variable name="func" expression="jsMethodName()" defaultValue="function" alwaysStopAt="false" />
