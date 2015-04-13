@@ -3,5 +3,6 @@
     <option name="myShellPath" value="&quot;C:\Program Files (x86)\Git\bin\sh.exe&quot; --login -i" />
     <option name="myTabName" value="Bash" />
     <option name="mySoundBell" value="false" />
+    <option name="myOverrideIdeShortcuts" value="false" />
   </component>
 </application>
