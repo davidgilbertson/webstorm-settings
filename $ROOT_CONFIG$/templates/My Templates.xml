@@ -87,4 +87,16 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="civ" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$() &gt; $var$:', $var$);" description="console log some info about this method" toReformat="false" toShortenFQNames="true">
+    <variable name="file" expression="fileName()" defaultValue="file" alwaysStopAt="false" />
+    <variable name="line" expression="lineNumber()" defaultValue="line" alwaysStopAt="false" />
+    <variable name="func" expression="jsMethodName()" defaultValue="function" alwaysStopAt="false" />
+    <variable name="var" expression="clipboard()" defaultValue="var" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
