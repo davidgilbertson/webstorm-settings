@@ -1,4 +1,10 @@
 <application>
+  <component name="DiffManager">
+    <enableMerge value="true" />
+    <filesTool value="C:\Program Files\KDiff3\kdiff3.exe" newValue="C:\Program Files\KDiff3\kdiff3.exe" />
+    <mergeTool value="C:\Program Files\KDiff3\kdiff3.exe" newValue="C:\Program Files\KDiff3\kdiff3.exe" />
+    <mergeToolParameters value="$BASE $LOCAL $REMOTE" />
+  </component>
   <component name="DiffSettings">
     <option name="PLACES_MAP">
       <entry key="Default">
@@ -17,6 +23,15 @@
         </PlaceSettings>
       </entry>
     </option>
+  </component>
+  <component name="ExternalDiffSettings">
+    <option name="DIFF_ENABLED" value="true" />
+    <option name="DIFF_DEFAULT" value="false" />
+    <option name="DIFF_EXE_PATH" value="C:\Program Files\KDiff3\kdiff3.exe" />
+    <option name="DIFF_PARAMETERS" value="$BASE $LOCAL $REMOTE" />
+    <option name="MERGE_ENABLED" value="true" />
+    <option name="MERGE_EXE_PATH" value="C:\Program Files\KDiff3\kdiff3.exe" />
+    <option name="MERGE_PARAMETERS" value="$BASE $LOCAL $REMOTE" />
   </component>
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
