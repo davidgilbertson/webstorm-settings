@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="13">
     <extensionMap>
       <mapping ext="cshtml" type="HTML" />
+      <mapping ext="md" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
