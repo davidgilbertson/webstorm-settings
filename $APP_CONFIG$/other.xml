@@ -6,12 +6,13 @@
           <State>
             <id />
           </State>
-        </expanded-state>
-        <selected-state>
           <State>
-            <id>CoffeeScript</id>
+            <id>GeneralJavaScript</id>
           </State>
-        </selected-state>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
       </profile-state>
     </entry>
   </component>
