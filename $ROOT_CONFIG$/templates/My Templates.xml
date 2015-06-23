@@ -17,7 +17,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ci" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$()'$END$);" description="console log some info about this method" toReformat="false" toShortenFQNames="true">
+  <template name="ci" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$'$END$);" description="console log some info about this method" toReformat="false" toShortenFQNames="true">
     <variable name="file" expression="fileName()" defaultValue="file" alwaysStopAt="false" />
     <variable name="line" expression="lineNumber()" defaultValue="line" alwaysStopAt="false" />
     <variable name="func" expression="jsMethodName()" defaultValue="function" alwaysStopAt="false" />
@@ -87,7 +87,7 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="civ" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$() &gt; $var$:', $var$);" description="console log some info about this method" toReformat="false" toShortenFQNames="true">
+  <template name="civ" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$ &gt; $var$:', $var$);" description="console log some info about this method" toReformat="false" toShortenFQNames="true">
     <variable name="file" expression="fileName()" defaultValue="file" alwaysStopAt="false" />
     <variable name="line" expression="lineNumber()" defaultValue="line" alwaysStopAt="false" />
     <variable name="func" expression="jsMethodName()" defaultValue="function" alwaysStopAt="false" />
@@ -117,7 +117,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="cid" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$() $var$:');&#10;console.dir($var$, {depth: $END$1, colors: true});" description="console log  and dir some info about this method" toReformat="false" toShortenFQNames="true">
+  <template name="cid" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$ $var$:');&#10;console.dir($var$, {depth: $END$1, colors: true});" description="console log  and dir some info about this method" toReformat="false" toShortenFQNames="true">
     <variable name="file" expression="fileName()" defaultValue="" alwaysStopAt="false" />
     <variable name="line" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
     <variable name="func" expression="jsMethodName()" defaultValue="" alwaysStopAt="false" />
