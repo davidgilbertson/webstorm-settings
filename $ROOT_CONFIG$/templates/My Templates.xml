@@ -117,4 +117,16 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="cid" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$() $var$:');&#10;console.dir($var$, {depth: $END$1, colors: true});" description="console log  and dir some info about this method" toReformat="false" toShortenFQNames="true">
+    <variable name="file" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="line" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <variable name="func" expression="jsMethodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="var" expression="clipboard()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
