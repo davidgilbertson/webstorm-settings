@@ -1,7 +1,6 @@
 <application>
   <component name="PomodoroState">
-    <option name="lastState" value="BREAK" />
-    <option name="pomodoroState" value="BREAK" />
+    <option name="lastState" value="STOP" />
     <option name="pomodorosAmount" value="8" />
     <option name="startTime" value="1435103391016" />
   </component>
