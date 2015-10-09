@@ -137,4 +137,23 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ct" value="console.log('  --  &gt;  $END$ ', performance.now().toLocaleString());" description="console log some time info" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cit" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$$END$', performance.now().toLocaleString());" description="console log some info about this method with a timestamp" toReformat="false" toShortenFQNames="true">
+    <variable name="file" expression="fileName()" defaultValue="file" alwaysStopAt="false" />
+    <variable name="line" expression="lineNumber()" defaultValue="line" alwaysStopAt="false" />
+    <variable name="func" expression="jsMethodName()" defaultValue="function" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
