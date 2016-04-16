@@ -2,24 +2,24 @@
   <action id="Debug" />
   <action id="DebugClass" />
   <action id="EditorDuplicate">
-    <keyboard-shortcut first-keystroke="shift control D" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
   <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="control D" />
+    <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="SwitchApply">
-    <keyboard-shortcut first-keystroke="control alt ENTER" />
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
   <action id="SwitchDown">
-    <keyboard-shortcut first-keystroke="control alt DOWN" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
   <action id="SwitchLeft">
-    <keyboard-shortcut first-keystroke="control alt LEFT" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="SwitchRight">
-    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="SwitchUp">
-    <keyboard-shortcut first-keystroke="control alt UP" />
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
 </keymap>
