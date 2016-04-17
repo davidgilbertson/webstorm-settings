@@ -1,4 +1,4 @@
-<scheme name="WarmNeon DG" version="141" parent_scheme="Default">
+<scheme name="WarmNeon DG" version="142" parent_scheme="Default">
   <option name="LINE_SPACING" value="1.1" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_QUICK_DOC_FONT_SIZE" value="MEDIUM" />
@@ -691,7 +691,6 @@
     <option name="JS.LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="8db4f2" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="JS.PARAMETER">
@@ -709,7 +708,6 @@
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="a6ea3f" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="JS.STRING">
@@ -865,7 +863,6 @@
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="PY.DECORATOR">
@@ -883,7 +880,6 @@
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="PY.KEYWORD">
@@ -912,20 +908,17 @@
       <value>
         <option name="FOREGROUND" value="83d6f1" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="PY.PREDEFINED_NAME">
       <value>
         <option name="FOREGROUND" value="33ccff" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="bbb06a" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="PY.STRING.B">
@@ -992,7 +985,6 @@
       <value>
         <option name="FOREGROUND" value="d2c200" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="REST.EXPLICIT">
@@ -1011,26 +1003,22 @@
       <value>
         <option name="FOREGROUND" value="85cd00" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="REST.INLINE">
       <value>
         <option name="BACKGROUND" value="1d4739" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="REST.INTERPRETED">
       <value>
         <option name="FOREGROUND" value="c0c0c0" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="REST.ITALIC">
       <value>
         <option name="FOREGROUND" value="83d7f2" />
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="REST.LINE_COMMENT">
