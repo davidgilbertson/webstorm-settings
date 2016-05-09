@@ -1,8 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="no node_modules" />
-    <option name="defaultScopeName" value="no node_modules" />
-    <option name="SEARCH_SCOPE" value="no node_modules" />
-    <option name="FILE_MASK" value="*.mxml" />
+    <option name="customScope" value="Project Files" />
+    <option name="defaultScopeName" value="Project Files" />
+    <option name="SEARCH_SCOPE" value="Project Files" />
   </component>
 </application>
