@@ -1,7 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Malla code" />
-    <option name="defaultScopeName" value="Malla code" />
-    <option name="SEARCH_SCOPE" value="Malla code" />
+    <option name="customScope" value="no node_modules" />
+    <option name="defaultScopeName" value="no node_modules" />
+    <option name="SEARCH_SCOPE" value="no node_modules" />
+    <option name="FILE_MASK" value="*.mxml" />
   </component>
 </application>
