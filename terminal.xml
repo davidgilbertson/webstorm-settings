@@ -1,6 +1,6 @@
 <application>
   <component name="TerminalOptionsProvider">
-    <option name="myShellPath" value="%windir%\system32\cmd.exe" />
+    <option name="myShellPath" value="C:\WINDOWS\system32\cmd.exe" />
     <option name="myTabName" value="Command prompt" />
     <option name="mySoundBell" value="false" />
   </component>
