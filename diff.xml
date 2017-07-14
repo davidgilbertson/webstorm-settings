@@ -1,8 +1,4 @@
 <application>
-  <component name="DiffManager">
-    <mergeTool value="C:\Program Files\KDiff3\kdiff3.exe" newValue="C:\Program Files\KDiff3\kdiff3.exe" />
-    <mergeToolParameters value="%2 %1 %3 -o %4" />
-  </component>
   <component name="DiffSettings">
     <option name="PLACES_MAP">
       <entry key="ChangesView">
