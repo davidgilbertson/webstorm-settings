@@ -6,13 +6,20 @@
   </action>
   <action id="Debug" />
   <action id="DebugClass" />
+  <action id="Diff.ShowSettingsPopup" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="EditorStartNewLine" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="NewScratchFile" />
   <action id="OpenElementInNewWindow" />
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="ctrl d" />
@@ -32,4 +39,5 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
+  <action id="Uml.ShowDiff" />
 </keymap>
