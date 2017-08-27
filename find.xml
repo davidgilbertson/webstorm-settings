@@ -3,6 +3,7 @@
     <option name="customScope" value="All frontend" />
     <option name="defaultScopeName" value="All frontend" />
     <option name="SEARCH_SCOPE" value="All frontend" />
+    <option name="FILE_MASK" value="*.scss" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
