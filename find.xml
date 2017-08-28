@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All frontend" />
-    <option name="defaultScopeName" value="All frontend" />
-    <option name="SEARCH_SCOPE" value="All frontend" />
+    <option name="customScope" value="React source" />
+    <option name="defaultScopeName" value="React source" />
+    <option name="SEARCH_SCOPE" value="React source" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
