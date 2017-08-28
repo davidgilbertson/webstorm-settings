@@ -18,9 +18,17 @@
   </action>
   <action id="EditorStartNewLine" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
     <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+    <mouse-shortcut keystroke="shift meta button1" />
+    <mouse-shortcut keystroke="shift button2" />
   </action>
   <action id="NewScratchFile" />
   <action id="OpenElementInNewWindow" />
