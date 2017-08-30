@@ -1,7 +1,9 @@
 <application>
   <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
     <option name="customScope" value="React source" />
     <option name="defaultScopeName" value="React source" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="React source" />
     <recentFileMasks>
       <mask>*.properties</mask>
