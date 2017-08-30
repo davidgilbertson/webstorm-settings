@@ -18,8 +18,12 @@
   </action>
   <action id="EditorStartNewLine" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="FindPrevious" />
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="shift meta g" />
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta o" />
