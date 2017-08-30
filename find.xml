@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="All frontend" />
     <option name="defaultScopeName" value="All frontend" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All frontend" />
     <recentFileMasks>
       <mask>*.properties</mask>
