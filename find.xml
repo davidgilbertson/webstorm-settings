@@ -1,29 +1,16 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All frontend" />
-    <option name="defaultScopeName" value="All frontend" />
+    <option name="customScope" value="React source" />
+    <option name="defaultScopeName" value="React source" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="All frontend" />
+    <option name="SEARCH_SCOPE" value="React source" />
+    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
-      <mask>*.jsp</mask>
-      <mask>*.xml</mask>
-      <mask>*.java</mask>
-      <mask>*.as</mask>
       <mask>*.css</mask>
-      <mask>*.mxml</mask>
-      <mask>*.mxm</mask>
-      <mask>*.mx</mask>
-      <mask>*.m</mask>
-      <mask>*.</mask>
-      <mask>*.j</mask>
-      <mask>*.sc</mask>
       <mask>*.scss</mask>
-      <mask>*.scs</mask>
-      <mask>*.ss</mask>
-      <mask>*.s</mask>
       <mask>*.js</mask>
     </recentFileMasks>
   </component>
