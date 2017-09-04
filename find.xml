@@ -3,7 +3,6 @@
     <option name="customScope" value="React source" />
     <option name="defaultScopeName" value="React source" />
     <option name="SEARCH_SCOPE" value="React source" />
-    <option name="FILE_MASK" value="*.js" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
