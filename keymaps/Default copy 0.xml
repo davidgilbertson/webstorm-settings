@@ -43,5 +43,6 @@
   <action id="Uml.ShowDiff" />
   <action id="Vcs.Log.ShowDiff" />
   <action id="XDebugger.CopyWatch" />
+  <action id="context.load" />
   <action id="openAssertEqualsDiff" />
 </keymap>
