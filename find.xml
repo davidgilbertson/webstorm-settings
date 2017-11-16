@@ -1,8 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="src" />
-    <option name="defaultScopeName" value="src" />
-    <option name="SEARCH_SCOPE" value="src" />
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="App src" />
+    <option name="defaultScopeName" value="App src" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="App src" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
