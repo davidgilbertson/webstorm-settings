@@ -3,5 +3,20 @@
     <option name="customScope" value="App src" />
     <option name="defaultScopeName" value="App src" />
     <option name="SEARCH_SCOPE" value="App src" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*.mxm</mask>
+      <mask>*.mx</mask>
+      <mask>*.m</mask>
+      <mask>*.</mask>
+      <mask>*.js</mask>
+    </recentFileMasks>
   </component>
 </application>
