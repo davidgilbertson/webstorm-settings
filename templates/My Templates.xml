@@ -53,7 +53,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imp" value="import $var2$ from '$var1$';" description="import x from 'x'" toReformat="false" toShortenFQNames="true">
+  <template name="imp" value="import { $var2$ } from '$var1$';" description="import x from 'x'" toReformat="false" toShortenFQNames="true">
     <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -96,4 +96,10 @@
     </context>
   </template>
   <template name="cn" value="className=&quot;$END$&quot;" description="className=&quot;&quot;" toReformat="false" toShortenFQNames="true" />
+  <template name="react" value="import React from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;const $var$ = props =&gt; (&#10;  &lt;div&gt;&#10;    $END$&#10;  &lt;/div&gt;&#10;);&#10;&#10;$var$.propTypes = {};&#10;&#10;export default $var$;&#10;" description="React functional component" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
