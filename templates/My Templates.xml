@@ -5,12 +5,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cv" value="console.log('  --  &gt;  $var$:', $var$);" description="console log a variable" toReformat="false" toShortenFQNames="true">
-    <variable name="var" expression="clipboard()" defaultValue="var" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="ci" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$ $END$');" description="console log some info about this method" toReformat="false" toShortenFQNames="true">
     <variable name="file" expression="fileName()" defaultValue="file" alwaysStopAt="false" />
     <variable name="line" expression="lineNumber()" defaultValue="line" alwaysStopAt="false" />
@@ -24,26 +18,6 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="mql" value="@media #{$large-up} {&#10;    $END$&#10;}" description="Media query large-up" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="mqs" value="@media #{$small-only} {&#10;    $END$&#10;}" description="Media query small-up" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="mqm" value="@media #{$medium-up} {&#10;    $END$&#10;}" description="Media query medium-up" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-  <template name="mqxl" value="@media #{$xlarge-up} {&#10;    $END$&#10;}" description="Media query extra-large-up" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
   <template name="civ" value="console.log('  --  &gt;  $file$:$line$ &gt; $func$ &gt; $var$:', $var$);" description="console log some info about this method" toReformat="false" toShortenFQNames="true">
     <variable name="file" expression="fileName()" defaultValue="file" alwaysStopAt="false" />
     <variable name="line" expression="lineNumber()" defaultValue="line" alwaysStopAt="false" />
@@ -53,7 +27,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imp" value="import $var2$ from '$var1$';" description="import x from 'x'" toReformat="false" toShortenFQNames="true">
+  <template name="imp" value="import { $var2$ } from '$var1$';" description="import x from 'x'" toReformat="false" toShortenFQNames="true">
     <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -79,21 +53,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ct" value="console.log('  --  &gt;  $END$ ', performance.now().toLocaleString());" description="console log some time info" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="cit" value="console.time('$var1$');&#10;console.timeEnd('$var1$');" description="console log some info about this method with a timestamp" toReformat="false" toShortenFQNames="true">
     <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="st" value="style={styles.$END$}" description="style={styles.}" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="cn" value="className=&quot;$END$&quot;" description="className=&quot;&quot;" toReformat="false" toShortenFQNames="true" />
 </templateSet>
