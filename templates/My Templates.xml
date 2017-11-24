@@ -59,4 +59,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="test" value="import React from 'react';&#10;import { shallow } from 'enzyme';&#10;import $var$ from './$var$';&#10;&#10;it('should match Snapshot', () =&gt; {&#10;  const component =  shallow(&lt;$var$ /&gt;);&#10;  expect(component.debug()).toMatchSnapshot();&#10;});&#10;" description="Insert React/Jest boilerplate" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
