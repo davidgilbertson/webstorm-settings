@@ -27,7 +27,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="imp" value="import { $var2$ } from '$var1$';" description="import x from 'x'" toReformat="false" toShortenFQNames="true">
+  <template name="imp" value="import { $var2$ } from '$var1$';&#10;$END$" description="import x from 'x'" toReformat="false" toShortenFQNames="true">
     <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
