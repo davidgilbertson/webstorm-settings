@@ -34,7 +34,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="pj" value="&lt;pre&gt;{JSON.stringify(data, null, 2)}&lt;/pre&gt;" description="&lt;pre&gt;{JSON.stringify(data, null, 2)}&lt;/pre&gt;" toReformat="false" toShortenFQNames="true">
+  <template name="pj" value="&lt;pre&gt;{JSON.stringify(props, null, 2)}&lt;/pre&gt;" description="&lt;pre&gt;{JSON.stringify(data, null, 2)}&lt;/pre&gt;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
